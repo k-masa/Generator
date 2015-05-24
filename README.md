@@ -1,0 +1,2 @@
+# Generator
+UIViewControllerなどのテンプレートからswiftファイルを生成するツールです
