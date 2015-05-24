@@ -1,2 +1,2 @@
 # Generator
-UIViewControllerなどのテンプレートからswiftファイルを生成するツールです
+UIViewControllerなどをテンプレートからswiftファイルを生成するツールです。
