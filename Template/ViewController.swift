@@ -96,7 +96,7 @@ class ViewController: NSViewController {
     
     private func saveTemplate() {
         if let string = textView.string {
-            let count = string.utf16Count
+            let count = string.lengthOfBytesUsingEncoding(NSUTF8StringEncoding)
             let textData = textView.RTFFromRange(NSRange(location: 0, length: count))
             NSUserDefaults.standardUserDefaults().setObject(textData, forKey: dataArr[selectedAtIndex].rawValue)
             showAlert(title: "更新", message: "更新しました")
